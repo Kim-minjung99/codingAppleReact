@@ -302,6 +302,7 @@ console.log("getNyName:::", getMyName(nameIs.name));
 // 원래는 ...
 function functionAlias (num: string):number {
     console.log("num::::", num);
+    console.log("git branch test")
     return 10
 }
 
