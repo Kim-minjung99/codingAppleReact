@@ -302,7 +302,6 @@ console.log("getNyName:::", getMyName(nameIs.name));
 // 원래는 ...
 function functionAlias (num: string):number {
     console.log("num::::", num);
-    console.log("git branch test")
     return 10
 }
 
@@ -386,5 +385,7 @@ const removeDash: removeDashType = (x) => {
     return Number(x.replace("-",""));
 }
 
-
+/**!SECTION
+ * Its a branch test
+ */
 
